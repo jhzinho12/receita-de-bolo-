@@ -1,0 +1,45 @@
+@font-face {
+ src:   url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+ font-family:'outfit'
+}
+@font-face{
+  src:   url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+font-family:'young-serif';
+};
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+}
+
+body {
+background-color: #f5cfad;
+
+}
+
+h1 
+{font-family: 'young-serif', serif;
+    font-size: 48px;
+}
+div{
+    background-color: white;
+    margin: 150px 300px;
+    padding: 50px;
+    border-radius: 32px;
+}
+
+
+.card{
+background-color: rgb(220, 208, 233);
+width: 90%;
+margin: 24px 0;
+}
+
+img{
+    width: 100%;
+    border-radius: 24px;
+}
+
+li{
+    list-style-position: inside;
+}
